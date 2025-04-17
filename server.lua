@@ -1,6 +1,6 @@
 ESX = exports["es_extended"]:getSharedObject()
 
--- Eventy serwerowe
+
 RegisterServerEvent('w_jobcenter:SetPlayerJob')
 AddEventHandler('w_jobcenter:SetPlayerJob', function(job)
     local xPlayer = ESX.GetPlayerFromId(source)
